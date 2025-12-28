@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <title>WebWave Studio | Websites & Automação para Negócios Locais</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="WebWave Studio - criação de websites modernos e automação digital para negócios locais que querem crescer online."
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <header class="navbar">
+      <div class="container nav-inner">
+        <div class="logo">
+          <img
+            src="assets/logo.png"
+            alt="WebWave Studio Logo"
+            class="logo-img"
+          />
+          <span class="logo-text">WebWave <span>Studio</span></span>
+        </div>
+
+        <nav class="nav-links" id="nav-links">
+          <a href="#servicos">Serviços</a>
+          <a href="#precos">Preços</a>
+          <a href="#portfolio">Portfólio</a>
+          <a href="#reviews">Reviews</a>
+          <a href="#sobre">Sobre</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+
+        <a href="#contacto" class="btn btn-small nav-cta">Falar connosco</a>
+
+        <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <!-- Coluna esquerda -->
+        <div class="hero-content">
+          <p class="eyebrow">Websites & Automação</p>
+
+          <h1>
+            Soluções digitais modernas<br />
+            para negócios que querem evoluir.
+          </h1>
+
+          <p class="hero-subtitle">
+            A <strong>WebWave Studio</strong> desenvolve websites rápidos,
+            elegantes e funcionais — com automações que tornam o teu dia-a-dia
+            mais simples e aumentam o contacto com clientes.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#contacto" class="btn">Pedir orçamento</a>
+            <a href="#portfolio" class="btn">Ver exemplos de trabalho</a>
+          </div>
+
+          <div class="hero-metrics">
+            <div class="metric">
+              <span class="metric-number">72h</span>
+              <span class="metric-label">primeira versão pronta</span>
+            </div>
+
+            <div class="metric">
+              <span class="metric-number" id="metric-clientes">+0</span>
+              <span class="metric-label">projetos criados</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Coluna direita -->
+        <div class="hero-card">
+          <div class="hero-card-header">
+            <h2>Website para Barbearia</h2>
+            <p>
+              Landing page centrada em marcações, reviews e apresentação de
+              serviços.
+            </p>
+          </div>
+
+          <div class="hero-card-body">
+            <div class="mockup">
+              <div class="mockup-bar">
+                <span></span><span></span><span></span>
+              </div>
+
+              <div class="mockup-content">
+                <div class="mockup-hero">
+                  <p>Cortes modernos, horários flexíveis e reservas rápidas.</p>
+                  <button type="button">Marcar agora</button>
+                </div>
+
+                <div class="mockup-grid">
+                  <div class="mockup-box"></div>
+                  <div class="mockup-box"></div>
+                  <div class="mockup-box"></div>
+                </div>
+              </div>
+            </div>
+
+            <p class="hero-card-note">
+              Exemplo de estrutura que pode ser adaptada a qualquer negócio:
+              barbearia, estética, restaurante, clínica e mais.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVIÇOS -->
+    <section class="section" id="servicos">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">O que fazemos</p>
+          <h2>Serviços pensados para negócios locais</h2>
+          <p>
+            Websites que passam confiança, explicam o teu serviço e facilitam
+            marcações e contactos.
+          </p>
+        </div>
+
+        <div class="grid-3">
+          <div class="card service-card">
+            <h3>Website Essencial</h3>
+            <p>
+              Landing page moderna com a informação essencial para quem descobre
+              o teu negócio pela primeira vez.
+            </p>
+            <ul>
+              <li>Layout responsivo</li>
+              <li>Copy claro e objetivo</li>
+              <li>Botões de contacto direto</li>
+            </ul>
+          </div>
+
+          <div class="card service-card">
+            <h3>Website Profissional</h3>
+            <p>
+              Site completo para negócios que precisam de mais estrutura e
+              presença robusta.
+            </p>
+            <ul>
+              <li>Até 6 páginas</li>
+              <li>SEO + performance otimizada</li>
+              <li>Integrações externas</li>
+            </ul>
+          </div>
+
+          <div class="card service-card">
+            <h3>Chatbots & Automação</h3>
+            <p>
+              Automatiza respostas, recolhe contactos e melhora o atendimento
+              sem esforço.
+            </p>
+            <ul>
+              <li>Chatbots para WhatsApp ou Website</li>
+              <li>Fluxos automáticos personalizáveis</li>
+              <li>Integração com formulários</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PREÇOS -->
+    <section class="section section-alt" id="precos">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">Transparência</p>
+          <h2>Planos simples e diretos</h2>
+          <p>Sem mensalidades escondidas. Escolhe o que faz sentido para ti.</p>
+        </div>
+
+        <div class="pricing-grid">
+          <div class="card pricing-card">
+            <h3>Website Essencial</h3>
+            <p class="price">249€</p>
+            <p class="price-sub">Solução rápida e funcional.</p>
+            <ul>
+              <li>Landing page + 1 página</li>
+              <li>Design moderno e responsivo</li>
+              <li>Botões de contacto</li>
+            </ul>
+          </div>
+
+          <div class="card pricing-card pricing-card-featured">
+            <div class="badge-featured">Mais escolhido</div>
+            <h3>Website Profissional</h3>
+            <p class="price">549€</p>
+            <p class="price-sub">Presença online completa.</p>
+            <ul>
+              <li>Até 6 páginas</li>
+              <li>SEO + performance</li>
+              <li>Integrações avançadas</li>
+            </ul>
+          </div>
+
+          <div class="card pricing-card">
+            <h3>Gestão & Automação</h3>
+            <p class="price">99€/mês</p>
+            <p class="price-sub">Manutenção contínua.</p>
+            <ul>
+              <li>Atualizações mensais</li>
+              <li>Ajustes e melhorias</li>
+              <li>Gestão de chatbot</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="pricing-addon">
+          <div class="card pricing-card pricing-addon-inner">
+            <div class="badge-addon">Serviço adicional</div>
+
+            <h3>Implementação de Chatbots</h3>
+            <p class="pricing-addon-price">desde 149€ (pagamento único)</p>
+
+            <p class="pricing-addon-text">
+              Ideal para negócios que querem um chatbot ligado ao WhatsApp ou
+              Website para responder automaticamente a clientes.
+            </p>
+
+            <ul>
+              <li>Chatbot configurado para o teu negócio</li>
+              <li>Fluxos automáticos personalizados</li>
+              <li>Ligação a WhatsApp ou formulário</li>
+              <li>Ajustes incluídos no primeiro mês</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFÓLIO -->
+    <section class="section" id="portfolio">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">Portfólio</p>
+          <h2>Templates e exemplos prontos para adaptar</h2>
+          <p>
+            Escolhe um estilo por objetivo ou indústria — depois ajustamos ao
+            teu negócio.
+          </p>
+        </div>
+
+        <div
+          class="portfolio-tabs"
+          role="tablist"
+          aria-label="Filtros do portfólio"
+        >
+          <button
+            class="tab-btn is-active"
+            role="tab"
+            aria-selected="true"
+            data-filter="all"
+          >
+            Todos
+          </button>
+          <button
+            class="tab-btn"
+            role="tab"
+            aria-selected="false"
+            data-filter="servicos"
+          >
+            Landing de Serviços
+          </button>
+          <button
+            class="tab-btn"
+            role="tab"
+            aria-selected="false"
+            data-filter="saas"
+          >
+            Startup / SaaS
+          </button>
+          <button
+            class="tab-btn"
+            role="tab"
+            aria-selected="false"
+            data-filter="ecommerce"
+          >
+            E-commerce
+          </button>
+          <button
+            class="tab-btn"
+            role="tab"
+            aria-selected="false"
+            data-filter="restauracao"
+          >
+            Restaurante & Cafés
+          </button>
+          <button
+            class="tab-btn"
+            role="tab"
+            aria-selected="false"
+            data-filter="barbearia"
+          >
+            Barbearia
+          </button>
+          <button
+            class="tab-btn"
+            role="tab"
+            aria-selected="false"
+            data-filter="estetica"
+          >
+            Estética / Clínica
+          </button>
+          <button
+            class="tab-btn"
+            role="tab"
+            aria-selected="false"
+            data-filter="imobiliaria"
+          >
+            Imobiliária
+          </button>
+        </div>
+
+        <p class="portfolio-placeholder" id="portfolio-placeholder">
+          Escolhe uma categoria para ver os templates disponíveis.
+        </p>
+
+        <div class="grid-3 portfolio-grid" id="portfolio-grid">
+          <article class="card portfolio-card" data-category="servicos">
+            <div class="portfolio-thumb thumb-services"></div>
+            <div class="portfolio-body">
+              <div class="portfolio-meta">
+                <span class="tag">Landing de Serviços</span>
+                <span class="pill">Conversão</span>
+              </div>
+              <p>
+                Estrutura ideal para negócios locais: serviços, prova social e
+                CTA.
+              </p>
+              <div class="portfolio-actions">
+                <a class="portfolio-link" href="#contacto">Quero este estilo</a>
+                <button
+                  class="portfolio-link ghost"
+                  type="button"
+                  data-open-portfolio="servicos"
+                >
+                  Ver demo
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <article class="card portfolio-card" data-category="saas">
+            <div class="portfolio-thumb thumb-saas"></div>
+            <div class="portfolio-body">
+              <div class="portfolio-meta">
+                <span class="tag">Startup / SaaS</span>
+                <span class="pill">UI premium</span>
+              </div>
+              <p>Hero forte, features, pricing, FAQ e secção de integrações.</p>
+              <div class="portfolio-actions">
+                <a class="portfolio-link" href="#contacto">Quero este estilo</a>
+                <button
+                  class="portfolio-link ghost"
+                  type="button"
+                  data-open-portfolio="saas"
+                >
+                  Ver demo
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- E-COMMERCE — VIDEO thumb -->
+          <article class="card portfolio-card" data-category="ecommerce">
+            <div class="portfolio-thumb">
+              <video
+                class="portfolio-thumb-video"
+                autoplay
+                muted
+                loop
+                playsinline
+                preload="metadata"
+                src="assets/ecomm/noise-district.mp4"
+              ></video>
+            </div>
+
+            <div class="portfolio-body">
+              <div class="portfolio-meta">
+                <span class="tag">E-commerce</span>
+                <span class="pill">Conversão</span>
+              </div>
+              <p>Loja online focada em produto, branding e conversão direta.</p>
+              <div class="portfolio-actions">
+                <a class="portfolio-link" href="#contacto">Quero este estilo</a>
+                <button
+                  class="portfolio-link ghost"
+                  type="button"
+                  data-open-portfolio="ecommerce"
+                >
+                  Ver demo
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- RESTAURAÇÃO — VIDEO thumb -->
+          <article class="card portfolio-card" data-category="restauracao">
+            <div class="portfolio-thumb">
+              <video
+                class="portfolio-thumb-video"
+                autoplay
+                muted
+                loop
+                playsinline
+                preload="metadata"
+                src="assets/rest/Rest.VID.mp4"
+              ></video>
+            </div>
+
+            <div class="portfolio-body">
+              <div class="portfolio-meta">
+                <span class="tag">Restaurante & Cafés</span>
+                <span class="pill">Menu</span>
+              </div>
+              <p>Menu, reservas, pratos em destaque e mapa/horário.</p>
+
+              <div class="portfolio-actions">
+                <a class="portfolio-link" href="#contacto">Quero este estilo</a>
+                <button
+                  class="portfolio-link ghost"
+                  type="button"
+                  data-open-portfolio="restauracao"
+                >
+                  Ver demo
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <article class="card portfolio-card" data-category="barbearia">
+            <div class="portfolio-thumb thumb-barbearia"></div>
+            <div class="portfolio-body">
+              <div class="portfolio-meta">
+                <span class="tag">Barbearia</span>
+                <span class="pill">Reservas</span>
+              </div>
+              <p>Serviços, equipa, reviews e CTA direto para marcação.</p>
+              <div class="portfolio-actions">
+                <a class="portfolio-link" href="#contacto">Quero este estilo</a>
+                <button
+                  class="portfolio-link ghost"
+                  type="button"
+                  data-open-portfolio="barbearia"
+                >
+                  Ver demo
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <article class="card portfolio-card" data-category="estetica">
+            <div class="portfolio-thumb thumb-estetica"></div>
+            <div class="portfolio-body">
+              <div class="portfolio-meta">
+                <span class="tag">Estética / Clínica</span>
+                <span class="pill">Confiança</span>
+              </div>
+              <p>Layout clean, serviços, antes/depois e prova social.</p>
+              <div class="portfolio-actions">
+                <a class="portfolio-link" href="#contacto">Quero este estilo</a>
+                <button
+                  class="portfolio-link ghost"
+                  type="button"
+                  data-open-portfolio="estetica"
+                >
+                  Ver demo
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <article class="card portfolio-card" data-category="imobiliaria">
+            <div class="portfolio-thumb thumb-imobiliaria"></div>
+            <div class="portfolio-body">
+              <div class="portfolio-meta">
+                <span class="tag">Imobiliária</span>
+                <span class="pill">Listagens</span>
+              </div>
+              <p>Cards de imóveis, destaque, “filtros” UI e contacto rápido.</p>
+              <div class="portfolio-actions">
+                <a class="portfolio-link" href="#contacto">Quero este estilo</a>
+                <button
+                  class="portfolio-link ghost"
+                  type="button"
+                  data-open-portfolio="imobiliaria"
+                >
+                  Ver demo
+                </button>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <p class="portfolio-empty" id="portfolio-empty" hidden>
+          Não há templates nesta categoria (por agora).
+        </p>
+      </div>
+    </section>
+
+    <!-- REVIEWS -->
+    <section class="reviews-full" id="reviews">
+      <div class="reviews-header">
+        <p class="eyebrow">Feedback</p>
+        <h2>O que clientes dizem sobre o nosso trabalho</h2>
+        <p>Opiniões reais de quem já trabalhou connosco.</p>
+      </div>
+
+      <div class="reviews-marquee">
+        <div class="review-track" id="review-track"></div>
+      </div>
+    </section>
+
+    <!-- SOBRE (sem vídeo / sem background) -->
+    <section class="section" id="sobre">
+      <div class="container">
+        <div class="about-card">
+          <p class="eyebrow">Sobre nós</p>
+
+          <h2>Estúdio pequeno, foco total no detalhe.</h2>
+
+          <p class="about-lead">
+            Ajudo negócios a criarem websites modernos, rápidos e pensados para
+            converter — sem complicações técnicas e sem soluções genéricas.
+          </p>
+
+          <div class="about-split">
+            <div class="about-main">
+              <h3 class="about-subtitle">O que fazemos</h3>
+              <ul class="about-bullets">
+                <li>Websites profissionais adaptados ao teu negócio</li>
+                <li>Automação e integrações que poupam tempo</li>
+                <li>Suporte direto, sem intermediários</li>
+                <li>Suporte e reparações de hardware (quando necessário)</li>
+              </ul>
+
+              <h3 class="about-subtitle">Quem está por trás</h3>
+
+              <p>
+                <strong>Nuno Lima</strong>, fundador da
+                <strong>WebWave Studio</strong>. Desenvolvo websites e soluções
+                digitais com foco em performance, clareza e resultados reais.
+              </p>
+
+              <p>
+                Trabalho de forma próxima e personalizada — do planeamento à
+                entrega — para garantir soluções modernas, rápidas e fáceis de
+                gerir.
+              </p>
+
+              <p>
+                Acompanhamento <strong>remoto ou presencial</strong> com
+                TeamViewer/AnyDesk, com contacto direto e respostas rápidas.
+              </p>
+
+              <div class="about-callout">
+                <strong>Objetivo:</strong> criar soluções digitais sólidas e
+                atuais, sem processos técnicos desnecessários — focadas em
+                ajudar negócios a crescer online.
+              </div>
+            </div>
+
+            <aside class="about-ocean-panel" aria-label="Como trabalhamos">
+              <div class="ocean-badge">
+                <span class="ocean-dot" aria-hidden="true"></span>
+                <span>Como trabalhamos</span>
+              </div>
+
+              <ul class="ocean-steps">
+                <li>
+                  <span class="step-icon" aria-hidden="true">✓</span
+                  ><span
+                    ><strong>Reunião rápida</strong> para entender o
+                    negócio</span
+                  >
+                </li>
+                <li>
+                  <span class="step-icon" aria-hidden="true">✓</span
+                  ><span><strong>Primeira versão</strong> em até 72 horas</span>
+                </li>
+                <li>
+                  <span class="step-icon" aria-hidden="true">✓</span
+                  ><span
+                    ><strong>Revisões claras</strong> baseadas no teu
+                    feedback</span
+                  >
+                </li>
+                <li>
+                  <span class="step-icon" aria-hidden="true">✓</span
+                  ><span><strong>Publicação</strong> + próximos passos</span>
+                </li>
+              </ul>
+
+              <div class="ocean-mini">
+                <div class="wavebar" aria-hidden="true"></div>
+                <p class="ocean-mini-text">
+                  Processo simples, rápido e transparente — sem complicar.
+                </p>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="section section-alt" id="contacto">
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow">Contacto</p>
+          <h2>Pronto para começar?</h2>
+
+          <p>
+            Envia uma mensagem rápida com o tipo de negócio e o que tens em
+            mente. Respondemos o mais rápido possível com ideias práticas.
+          </p>
+
+          <div class="contact-options">
+            <a
+              href="https://wa.me/351930577121"
+              class="contact-pill"
+              target="_blank"
+              rel="noopener"
+            >
+              <span>WhatsApp</span>
+              <span>Mensagem direta</span>
+            </a>
+
+            <a href="mailto:webwavestudio.geral@gmail.com" class="contact-pill">
+              <span>E-mail</span>
+              <span>Enviar detalhes do projeto</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="site-footer" id="footer">
+      <div class="container footer-top">
+        <div class="footer-col footer-brand">
+          <div class="footer-logo">
+            <img
+              src="assets/logo.png"
+              alt="WebWave Studio Logo"
+              class="logo-img"
+            />
+            <div class="footer-brand-text">
+              <div class="footer-brand-name">WebWave <span>Studio</span></div>
+              <div class="footer-brand-sub">
+                Websites modernos & automação digital para negócios locais.
+              </div>
+            </div>
+          </div>
+
+          <p class="footer-desc">
+            Desenvolvemos websites rápidos, elegantes e funcionais — com
+            automações que aumentam contactos e simplificam o teu dia-a-dia.
+          </p>
+
+          <div class="footer-badge">
+            <span class="badge-dot"></span>
+            <span>Entrega rápida • Design premium • Suporte</span>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-title">Links úteis</h4>
+          <ul class="footer-links">
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#precos">Preços</a></li>
+            <li><a href="#portfolio">Portfólio</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-title">Últimas notas</h4>
+          <div class="footer-note">
+            <p class="footer-note-title">Novos templates a caminho</p>
+            <p class="footer-note-text">
+              Estamos a adicionar mais demos por indústria (clínicas,
+              imobiliária e restauração) com vídeos e carrosséis.
+            </p>
+          </div>
+
+          <div class="footer-note">
+            <p class="footer-note-title">Automação WhatsApp</p>
+            <p class="footer-note-text">
+              Integrações para respostas rápidas, recolha de leads e marcações.
+            </p>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-title">Contacte-nos</h4>
+
+          <ul class="footer-contact">
+            <li>
+              <span class="icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    fill="currentColor"
+                    d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24a11.36 11.36 0 0 0 3.58.57c.55 0 1 .45 1 1V20c0 .55-.45 1-1 1C10.07 21 3 13.93 3 5c0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.46.57 3.58.11.35.03.74-.25 1.02l-2.2 2.19Z"
+                  />
+                </svg>
+              </span>
+              <a href="tel:+351930577121">+351 930 577 121</a>
+            </li>
+
+            <li>
+              <span class="icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    fill="currentColor"
+                    d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7Zm0 9.5a2.5 2.5 0 1 1 0-5a2.5 2.5 0 0 1 0 5Z"
+                  />
+                </svg>
+              </span>
+              <span>Porto, Portugal</span>
+            </li>
+
+            <li>
+              <span class="icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    fill="currentColor"
+                    d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4-8 5-8-5V6l8 5 8-5v2Z"
+                  />
+                </svg>
+              </span>
+              <a href="mailto:webwavestudio.geral@gmail.com"
+                >webwavestudio.geral@gmail.com</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container footer-bottom-inner">
+          <p>
+            © <span id="year"></span> WebWave Studio. Todos os direitos
+            reservados.
+          </p>
+          <div class="footer-legal">
+            <a href="termos.html">Termos</a>
+            <span>•</span>
+            <a href="privacidade.html">Privacidade</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- PORTFOLIO MODAL (carrossel) -->
+    <div class="portfolio-modal" id="portfolio-modal" hidden>
+      <div class="portfolio-modal-backdrop" data-close-portfolio></div>
+
+      <div
+        class="portfolio-modal-card"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="portfolio-modal-title"
+      >
+        <div class="portfolio-modal-header">
+          <h3 id="portfolio-modal-title">Demo</h3>
+          <button
+            class="modal-close"
+            type="button"
+            aria-label="Fechar"
+            data-close-portfolio
+          >
+            ✕
+          </button>
+        </div>
+
+        <div class="portfolio-modal-body">
+          <div class="portfolio-viewer" aria-live="polite">
+            <button
+              class="viewer-arrow left"
+              type="button"
+              aria-label="Anterior"
+              data-viewer-prev
+            >
+              ‹
+            </button>
+            <div class="viewer-stage" id="viewer-stage"></div>
+            <button
+              class="viewer-arrow right"
+              type="button"
+              aria-label="Seguinte"
+              data-viewer-next
+            >
+              ›
+            </button>
+          </div>
+
+          <div class="viewer-footer">
+            <span class="viewer-counter" id="viewer-counter">1 / 1</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
